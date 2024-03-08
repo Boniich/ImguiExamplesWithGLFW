@@ -71,8 +71,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>E:\C++\practica\ImguiExamplesWithGLFW\Docking\Libraries\include;$(IncludePath)</IncludePath>
-    <LibraryPath>E:\C++\practica\ImguiExamplesWithGLFW\Docking\Libraries\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\Docking\Libraries\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\Docking\Libraries\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
